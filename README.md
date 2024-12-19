@@ -57,11 +57,11 @@ Refer to the Multiscale_ViT_Paper.pdf for detailed methodology, results, and dis
 ## Authors
 This project was conducted by:
 
-Jinzhi Yang
-Sophie Li
-Albon Wu
-Jiarui Wan
-Shiyu Fu
+Jinzhi Yang,
+Sophie Li,
+Albon Wu,
+Jiarui Wan,
+Shiyu Fu,
 Hanzhi Bian
 
 ## Acknowledgments
