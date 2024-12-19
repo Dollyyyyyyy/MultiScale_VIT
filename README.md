@@ -23,31 +23,24 @@ Ensure you have Python 3.7+ installed along with the following packages:
 - TensorBoard
 
 Install dependencies using:
-```bash
 pip install -r requirements.txt
+
 Dataset Preparation
 The project uses the MNIST dataset. Ensure the dataset files are placed under the data/MNIST/raw/ directory. Preprocessed files are already included in this repository.
 
 Training the Model
 To train the MSViT model, run:
-
-bash
-复制代码
 python train.py
 You can modify training parameters like learning rate, batch size, and number of epochs in the script.
 
 Testing the Model
 To test the model on multi-scale images:
-
-bash
-复制代码
 python test.py
+
 Visualizing Attention Maps
 To visualize the attention maps for specific layers and heads, use:
-
-bash
-复制代码
 python attention_map.py
+
 Ensure to update the image_path in the script to point to the image you want to analyze.
 
 Results
@@ -70,6 +63,7 @@ Albon Wu
 Jiarui Wan
 Shiyu Fu
 Hanzhi Bian
+
 Acknowledgments
 Inspired by "Vision Transformers" by Dosovitskiy et al. (2021).
 Spatial Pyramid Pooling by Kaiming He et al. (2015).
