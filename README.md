@@ -25,25 +25,25 @@ Ensure you have Python 3.7+ installed along with the following packages:
 Install dependencies using:
 pip install -r requirements.txt
 
-Dataset Preparation
+##### Dataset Preparation
 The project uses the MNIST dataset. Ensure the dataset files are placed under the data/MNIST/raw/ directory. Preprocessed files are already included in this repository.
 
-Training the Model
+##### Training the Model
 To train the MSViT model, run:
 python train.py
 You can modify training parameters like learning rate, batch size, and number of epochs in the script.
 
-Testing the Model
+##### Testing the Model
 To test the model on multi-scale images:
 python test.py
 
-Visualizing Attention Maps
+##### Visualizing Attention Maps
 To visualize the attention maps for specific layers and heads, use:
 python attention_map.py
 
 Ensure to update the image_path in the script to point to the image you want to analyze.
 
-Results
+## Results
 Training Curves
 training_curve.png and training_curve_SPP.png show the training and validation losses for the vanilla ViT and MSViT models, respectively.
 Performance Comparison
@@ -51,10 +51,10 @@ accuracy_vs_scale.png illustrates how MSViT outperforms vanilla ViT on multi-sca
 Attention Visualization
 The script attention_map.py provides a visual representation of the attention mechanism, highlighting MSViT's improvements in spatial relationships.
 
-Paper
+## Paper
 Refer to the Multiscale_ViT_Paper.pdf for detailed methodology, results, and discussions.
 
-Authors
+## Authors
 This project was conducted by:
 
 Jinzhi Yang
@@ -64,6 +64,6 @@ Jiarui Wan
 Shiyu Fu
 Hanzhi Bian
 
-Acknowledgments
+## Acknowledgments
 Inspired by "Vision Transformers" by Dosovitskiy et al. (2021).
 Spatial Pyramid Pooling by Kaiming He et al. (2015).
